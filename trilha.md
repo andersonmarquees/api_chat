@@ -27,4 +27,41 @@
     - [x] - Query Params -> Filtros e buscas
     - [x] - Body Params
 
+## Aula 3
+
+- [x] - refatorando o controller settings (directory-> services)
+- [x] - criar a tabela de user `yarn typeorm migration:create -n CreateUsers`
+- [x] - criar a entity User
+- [x] - criar repository User
+- [x] - criar services User
+- [x] - criar controller User
+- [x] - rotas User
+- [x] - criar a tabela de user `yarn typeorm migration:create -n CreateMessages`
+- [x] - criar a entity Messages
+- [x] - criar repository Messages
+- [x] - criar services Messages
+- [x] - criar controller Messages
+- [x] - rotas Messages
+- [x] - criar list de messages users
+
+## Aula 4
+
+
 ## Feature Extra Tests
+
+- [x] intalando as ferrramentas de teste
+    - [x] `yarn add jest @types/jest -D`
+    - [x] criar arquivo de configuração do jest `yarn jest --init`
+    - [x] `yarn add ts-jest -D` -> preset, para trab. com TS
+    - [x] liberar em jest config -> `preset: "ts-jest"` 
+    - [x] bail -> true em config.jest
+- [x] criar o primeiro teste
+- [x] instalando ferramenta auxiliar para (mocha datas) dados fakes
+    - [x] `yarn add supertest @types/supertest -D`
+    - [x] criando a arquivo app.ts para ficar disponivel tbm para ao test
+- [x] criando um banco de dados fake
+    - [x] configurar o arquivo index.ts do diretorio database, para identificar
+    atraves da linha de comando quando o banco ira atuar como test ou não
+    - [x] no package.json em scripts `"test": NODE_ENV=test`, cria variavel de
+    ambiente
+    - [x] criando o `const defaultOptions = await getConnectionOptions()`, onde teremos todas as informaçoes contidas no ormconfig.json 

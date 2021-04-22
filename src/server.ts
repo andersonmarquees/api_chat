@@ -1,3 +1,4 @@
-import { app } from "./app";
+import { http } from "./http";
+import "./websocket/client";
 
-app.listen(3333, () => console.info("Server is Running!"));
+http.listen(3333, () => console.info("Server is Running!"));

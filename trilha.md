@@ -46,6 +46,13 @@
 
 ## Aula 4
 
+- [x] - instalar a lib socket.io `yarn add socket.io`
+- [x] - instalar os types `yarn add @types/socket.io -D`
+- [x] - criando em server.ts um server ws
+- [x] - instalar o `yarn add ejs`
+- [x] - instalar o `yarn add socket.io-client`
+- [x] - criar tabela de conections
+
 
 ## Feature Extra Tests
 
